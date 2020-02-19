@@ -10,17 +10,17 @@
     <link rel="stylesheet" href="https://lipis.github.io/bootstrap-social/assets/css/bootstrap.css">
     <link rel="stylesheet" href="https://lipis.github.io/bootstrap-social/assets/css/font-awesome.css">
     <link rel = "stylesheet" href="https://lipis.github.io/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet"  href="style.css">
 
 
 
     <title>Welcome to my Portfolio Website</title>
   </head>
-  <body>
+  <body class="bg-dark">
   <div class="container-fluid">
-    
     <div> 
       <!--Nav Bar-->
-      <nav class="navbar fixed-top navbar-expand-sm bg-primary navbar-dark jumbotron rounded">
+      <nav class="navbar fixed-top navbar-expand-sm bg-dark text-white">
         <!--Face-->
         <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
           <ul class="navbar-nav mr-auto">
@@ -37,12 +37,10 @@
           </ul>
         </div>
         <!-- Toggler/collapsibe Button -->
-      <div class="mx-auto order-0">
-        
-          <a class="navbar-brand mr-auto" href="#">Welcome!</a>
-        
-        
-          <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+      <div class="mx-auto order-1 navbar-left">
+          <!-- <p class="navbar-brand mr-auto" href="#">Kevin Maguire II</p>
+          <p class="bg-primary">Full-Stack Developer</p> -->
+          <button class="navbar-toggler mr-auto navbar-dark" type="button" data-toggle="collapse" data-target=".dual-collapse2">
               <span class="navbar-toggler-icon"></span>
           </button>
         
@@ -51,37 +49,66 @@
         <div class="collapse navbar-collapse w-100 order-3 dual-collapse2">
           <ul class="navbar-nav mr-auto navbar-right pr-3">
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link active" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link active" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link active" href="#">Projects</a>
             </li>
           </ul>
         </div>
       </nav>
     </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12">
-        <h2 class="text-center font-weight-bold">Kevin Maguire II</h2>
-        <h3 class="text-center font-weight-italized">Full-Stack Developer</h3>
-        <img src="Pic_New.jpg" class="rounded mx-auto d-block img-fluid" alt="Profile-Picture">
-      </div>
-    </div>
-    </div>
-    <div class="container-fluid">
+    <div class="container bg-dark text-white">
       <div class="row">
         <div class="col-sm-6">
-          <h3 id="about">About</h3>
+          <h2 class="align-text-top text-right font-weight-bold">Hello There!</h2>
+          <h3 class="align-text-top text-right font-weight-normal">Thank you for checking out my website!</h3>
+          <p class="align-text-top text-right font-weight-normal">My name's Kevin and I try my best to make things with computers! If you'd like any clarification or additional information feel free to reach out!  Have a great day!</p>
+          <button type="button" class="btn btn-secondary btn-lg text-center" onclick="window.open('Resume_Maguire.pdf')">Resume</button>
+        </div>
+        <div class="col-sm-6">
+          <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active" id="carousel-images">
+                <img class="d-block w-100 rotate"  src="Images\IMG_20190731_125305.jpg" alt="Tajoe Burgers">
+              </div>
+              <div class="carousel-item" id="carousel-images">
+                <img class="d-block w-100 rotate" src="Images\IMG_20191220_145924.jpg" alt="Boston Harbor">
+              </div>
+              <div class="carousel-item" id="carousel-images">
+                <img class="d-block w-100" src="Images\52886943_10156121677677966_7202109712383344640_n.jpg" alt="Wedding">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid bg-info text-white">
+      <div class="row">
+        <div class="col-sm-6">
+          <h3 id="about justify-content-around">About</h3>
           <p>A few years ago, I was introduced to <a href="https://www.lwjgl.org/">LWJGL</a> for Java game development by a friend and was excited by the endless possibilities.  While reading ‘How to Think Like a Computer Scientist’ in Java, I became hooked on the process of completing the book’s challenges, learning new languages and implementing algorithms.  Nothing beats the feeling of finally solving a tough problem.  As a student at <a href="https://www.codeplatoon.org/">Code Platoon</a>, I’m learning to be a full stack developer and plan to bring my acquired skills to a new career in tech.  My military service emphasized teamwork, communication and perseverance. My degree delved into several disciplines of science and working fulltime as a 911 <a href="https://en.wikipedia.org/wiki/Emergency_medical_technician">EMT</a> increased my problem solving, emotional intelligence and resilience.  I have witnessed the vital impact that technology can have for combat, training and day-to-day operations.  Software development is the tempo and limitless innovation I crave.  I’m new to the tech industry and I’m ready to go all-in.  I’m actively seeking a new career in software development and would like to discuss new opportunities.           
           </p>
         </div>
         <div class="col-sm-6">
           <h3>Interests</h3>
-          <ul class="list-group">
+          <ul class="list-group text-dark">
             <li class="list-group-item d-flex justify-content-between align-items-center">
               Rocking on the Guitar!
             </li>
@@ -103,7 +130,7 @@
     </div>
     <div class="text-center"id="skills">Skills
     <div class="row">
-      <div class="col-sm-4" >
+      <div class="col-sm-4 bg-light text-dark" >
         <h3>Programming:</h3>
         <ul class="list-group">
           <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -117,7 +144,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 bg-light text-dark">
         <h3>Web Technologies:</h3>
         <ul class="list-group">
           <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -134,7 +161,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 bg-light text-dark">
         <h3>OS Preferences:</h3>
         <ul class="list-group">
           <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -157,43 +184,32 @@
     <div class="row">
       <div class="col-sm-6">
         <div class="card text-white bg-dark mb-3">
-          <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_170564d045d%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_170564d045d%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2299.421875%22%20y%3D%2296.3%22%3EImage%20cap%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
+          <img class="card-img-top" src="Images\IMG_20170517_103550567.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">PROJECT 1</h5>
+            <p class="card-text">This is a short description of Project 1.</p>
+            <a href="#" class="btn btn-primary">Project Page</a>
           </div>
         </div>
       </div>
       <div class="col-sm-6">
         <div class="card text-white bg-dark mb-3">
-          <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_170564d045d%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_170564d045d%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2299.421875%22%20y%3D%2296.3%22%3EImage%20cap%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
+          <img class="card-img-top" src="Images\IMG_20190731_112041.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">PROJECT 2</h5>
+            <p class="card-text">This is a short description of Project 2.</p>
+            <a href="#" class="btn btn-primary">Project Page</a>
           </div>
         </div>
       </div>
     </div>
-
-
-
-
-
-
   </div>
-
-    <footer id="sticky-footer" class="py-4 bg-primary darken-3">
-      <ul class = "d-flex justify-content-center bg-primary darken-3 list-unstyled">
-      <li class="flex-fill">
-        <i class="fa fa-file"></i>
-        <button type="button" class= "btn btn-outline-light text-dark btn-sm" onclick="window.open('Resume_Maguire.pdf')">  Download My Resume!</button>
+    <footer id="sticky-footer" class="py-4 bg-info text-white">
+      <ul class = "d-flex justify-content-around list-unstyled">
+      <li class="text-center">
+        <a href="mailto:k.w.maguire.ii@gmail.com?Subject=Start%20Conversation" class="bg-info text-white"><i class="fa fa-envelope" ></i>  Send an E-mail!</a>
       </li>
-      <li class="flex-fill">
-        <a href="mailto:k.w.maguire.ii@gmail.com?Subject=Start%20Conversation"><i class="fa fa-envelope" ></i>  Send an E-mail!</a>
-      </li>
-      <li class="flex-fill">
+      <li class="text-center">
         <i class="fa fa-phone"></i>  (603) 867-6827
       </li>
       </ul>

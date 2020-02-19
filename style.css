@@ -1,0 +1,14 @@
+.bg {
+    background-image: url('..\Images\IMG_20170516_112306657.jpg'), url('..\Images\IMG_20190731_112041.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+
+.rotate{
+    transform: rotate(90deg);
+}
+
+#carousel-images{
+    background-color: black;
+}
