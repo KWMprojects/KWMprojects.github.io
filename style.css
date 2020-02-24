@@ -12,3 +12,17 @@
 #carousel-images{
     background-color: black;
 }
+
+.checked {
+    color: gold;
+  }
+
+.list-item{
+    border-color: gold;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    border-width: 2rem 1rem 2rem 1rem;
+}
+.skill{
+    border-width: 1rem 0.5rem 1rem 0.5rem;
+    border-color: darkviolet;
+}
