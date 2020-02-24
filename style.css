@@ -19,10 +19,20 @@
 
 .list-item{
     border-color: gold;
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
-    border-width: 2rem 1rem 2rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+
 }
 .skill{
-    border-width: 1rem 0.5rem 1rem 0.5rem;
     border-color: darkviolet;
+}
+.carousel-inner > .carousel-item{
+    width: 100%;
+}
+#card{
+    background-color: navajowhite;
+}
+.card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
 }

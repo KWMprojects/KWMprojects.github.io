@@ -22,6 +22,12 @@
     <div> 
       <!--Nav Bar-->
       <nav class="navbar fixed-top navbar-expand-sm bg-dark text-white">
+        <!-- Toggler/collapsibe Button -->
+        <div class="mx-auto order-1 navbar-left">
+          <button class="navbar-toggler mr-auto navbar-dark" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
         <!--Face-->
         <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
           <ul class="navbar-nav mr-auto">
@@ -36,16 +42,8 @@
               </a>
             </li>
           </ul>
-        </div>
-        <!-- Toggler/collapsibe Button -->
-      <div class="mx-auto order-1 navbar-left">
-          <!-- <p class="navbar-brand mr-auto" href="#">Kevin Maguire II</p>
-          <p class="bg-primary">Full-Stack Developer</p> -->
-          <button class="navbar-toggler mr-auto navbar-dark" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-        
-      </div>
+        </div>        
+      
         <!--Nav Options-->
         <div class="collapse navbar-collapse w-100 order-3 dual-collapse2">
           <ul class="navbar-nav mr-auto navbar-right pr-3">
@@ -56,7 +54,7 @@
               <a class="nav-link active" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Projects</a>
+              <a class="nav-link active" href="#projects">Projects</a>
             </li>
           </ul>
         </div>
@@ -79,13 +77,13 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active" id="carousel-images">
-                <img class="d-block w-100 rotate"  src="Images\IMG_20190731_125305.jpg" alt="Tajoe Burgers">
+                <img class="d-block w-100 rotate img-fluid"  src="Images\IMG_20190731_125305.jpg" alt="Tajoe Burgers">
               </div>
               <div class="carousel-item" id="carousel-images">
-                <img class="d-block w-100 rotate" src="Images\IMG_20191220_145924.jpg" alt="Boston Harbor">
+                <img class="d-block w-100 rotate img-fluid" src="Images\IMG_20191220_145924.jpg" alt="Boston Harbor">
               </div>
               <div class="carousel-item" id="carousel-images">
-                <img class="d-block w-100" src="Images\52886943_10156121677677966_7202109712383344640_n.jpg" alt="Wedding">
+                <img class="d-block w-100 rotate img-fluid" src="Images\MVIMG_20190730_100757.jpg" alt="Lake Tajoe">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -251,25 +249,25 @@
       </div>
     </div>
   </div>
-    <div class="text-center">Projects</div>
+    <div class="text-center" id="projects">Projects</div>
     <div class="row">
       <div class="col-sm-6">
         <div class="card text-white bg-dark mb-3">
           <img class="card-img-top" src="Images\IMG_20170517_103550567.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">PROJECT 1</h5>
-            <p class="card-text">This is a short description of Project 1.</p>
-            <a href="#" class="btn btn-primary">Project Page</a>
+          <div class="card-body" id="card">
+            <h5 class="card-title text-dark">PROJECT 1</h5>
+            <p class="card-text text-dark">This is a short description of Project 1.</p>
+            <a href="#" class="btn btn-light">Project Page</a>
           </div>
         </div>
       </div>
       <div class="col-sm-6">
         <div class="card text-white bg-dark mb-3">
           <img class="card-img-top" src="Images\IMG_20190731_112041.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">PROJECT 2</h5>
-            <p class="card-text">This is a short description of Project 2.</p>
-            <a href="#" class="btn btn-primary">Project Page</a>
+          <div class="card-body" id="card">
+            <h5 class="card-title text-dark">PROJECT 2</h5>
+            <p class="card-text text-dark">This is a short description of Project 2.</p>
+            <a href="#" class="btn btn-light">Project Page</a>
           </div>
         </div>
       </div>
