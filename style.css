@@ -36,3 +36,13 @@
     height: 30vw;
     object-fit: cover;
 }
+#skills{
+    padding-top: 0.5rem;
+}
+#projects{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.interests{
+    padding-bottom: 1rem;
+}
