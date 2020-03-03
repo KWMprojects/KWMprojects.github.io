@@ -1,0 +1,3 @@
+Header Font changes 
+Color Consistency (color.adobe)
+Look into fixes for some combatibility issues (hopefully few people are using iPhone 5s)
