@@ -2,6 +2,7 @@
 
 body{
     color: ivory;
+    background: #88BDBC;
 }
 .bg {
     background-image: url('..\Images\IMG_20170516_112306657.jpg'), url('..\Images\IMG_20190731_112041.jpg');
