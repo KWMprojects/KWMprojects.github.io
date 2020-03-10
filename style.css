@@ -9,13 +9,15 @@ body{
     background-repeat: no-repeat;
     background-position: center;
    }
-
+.bg-nice-green{
+    background: #88BDBC;
+}
 .rotate{
     transform: rotate(90deg);
 }
 
 #carousel-images{
-    background-color: #0B0C10;
+    background-color:#88BDBC;
 }
 
 .checked {
@@ -23,15 +25,13 @@ body{
   }
 
 .list-item{
-    background: rgb(110,102,88);
-    background: radial-gradient(circle, rgba(110,102,88,1) 23%, rgba(241,229,229,1) 100%);
+    background:#6E6658;
     padding: 1rem 1rem 1rem 1rem;
     border-color: #112D32;
 
 }
 .skills{
-    background: rgb(110,102,88);
-    background: radial-gradient(circle, rgba(110,102,88,1) 23%, rgba(241,229,229,1) 100%);
+    background: #6E6658;
 }
 .about-paragraph{
     font-size: large;
@@ -105,12 +105,14 @@ body{
 h1, h2, h5{
     font-family: 'Open Sans', sans-serif;
 }
+h1{
+    color: #112D32;
+}
 p, li, a{
     font-family: 'Roboto', sans-serif;
 }
 .bg-dark{
-    background: rgb(241,229,229);
-    background: radial-gradient(circle, rgba(241,229,229,1) 0%, rgba(136,189,188,1) 36%);;
+    background-color: #88BDBC;
 }
 .bg-light{
     background: #254E58;
@@ -118,7 +120,9 @@ p, li, a{
 nav{
     background: #112D32;
 }
-
+footer{
+    background: #112D32;  
+}
 hr{
     border-color: #112D32;
 }
