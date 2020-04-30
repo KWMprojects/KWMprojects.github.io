@@ -1,20 +1,22 @@
 import React from 'react'
-import Logo from '../Images/transparent-logo.png'
-import useWindowSize from "@rooks/use-window-size";
+
 import ParticleImage, {
   ParticleOptions,
   Vector,
   forces,
   ParticleForce
-} from "react-particle-image";
+} from "react-particle-image"
+import useWindowSize from "@rooks/use-window-size"
+
+import Logo from '../Images/transparent-logo.png'
 
 
 const particleOptions: ParticleOptions = {
   filter: ({ x, y, image }) => {
     // Get pixel
-    const pixel = image.get(x, y);
+    const pixel = image.get(x, y)
     // Make a particle for this pixel if blue > 50 (range 0-255)
-    return pixel.b > 50;
+    return pixel.b > 50
   },
   color: ({ x, y, image }) => "#cf672a",
   radius: () => Math.random() * 1.5 + 0.5,
@@ -26,10 +28,10 @@ const particleOptions: ParticleOptions = {
 };
 
 const motionForce = (x: number, y: number): ParticleForce => {
-  return forces.disturbance(x, y, 10);
+  return forces.disturbance(x, y, 10)
 };
 const Intro = () =>{
-  const { innerWidth, innerHeight } = useWindowSize();
+  const { innerWidth, innerHeight } = useWindowSize()
 
   return (
     <ParticleImage
@@ -45,7 +47,7 @@ const Intro = () =>{
       touchMoveForce={motionForce}
       backgroundColor="#FFFFFF"
     />
-  );
+  )
 }
 
 export default Intro

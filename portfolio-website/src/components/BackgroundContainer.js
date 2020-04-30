@@ -1,4 +1,5 @@
 import React from 'react'
+
 import ParticlesBg from 'particles-bg'
 
 const BackgroundContainer = () => {
@@ -20,11 +21,11 @@ const BackgroundContainer = () => {
     g: 5,    // gravity
     // f: [2, -1], // force
     onParticleUpdate: (ctx, particle) => {
-        ctx.beginPath();
-        ctx.rect(particle.p.x, particle.p.y, particle.radius * 2, particle.radius * 2);
+        ctx.beginPath()
+        ctx.rect(particle.p.x, particle.p.y, particle.radius * 2, particle.radius * 2)
         ctx.fillStyle = particle.color;
-        ctx.fill();
-        ctx.closePath();
+        ctx.fill()
+        ctx.closePath()
     }
   }
   return(
@@ -33,3 +34,5 @@ const BackgroundContainer = () => {
     </div>
   )
 }
+
+export default BackgroundContainer

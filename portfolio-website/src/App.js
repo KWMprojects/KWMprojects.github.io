@@ -1,22 +1,24 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'
-import NavBar from './components/NavBar'
-import HeaderAnimation from './components/headerAnimation'
+
 import './App.css'
-import Profile from './components/Profile'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 import Intro from './components/Intro'
 import Footer from './components/Footer'
+import NavBar from './components/NavBar'
+import Profile from './components/Profile'
+import Projects from './components/Projects'
 
 function App() {
   return (
     <div className="App">
       <Intro/>
-      <HeaderAnimation/>
       <NavBar/>
       <Profile/>
+      <Projects/>
       <Footer/>
     </div>
-  )
-}
+  )}
+
 
 export default App;
