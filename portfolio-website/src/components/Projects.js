@@ -11,7 +11,14 @@ const Projects = () => {
     window.open('https://rummiklub.netlify.app/')
   }
   return(
-    <Container fluid>
+    <Container id="Projects" fluid>
+      <Row className="justify-content-md-center">
+        <Col sm={12} md={4}>
+          <Fade>
+            <h2 className="text-center">Projects</h2>
+          </Fade>
+        </Col>
+      </Row>
       <Row className="justify-content-md-center">
         <Col sm={12} md={4}>
           <Fade>

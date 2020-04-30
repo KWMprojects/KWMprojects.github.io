@@ -34,7 +34,7 @@ const Intro = () =>{
   const { innerWidth, innerHeight } = useWindowSize()
 
   return (
-    <ParticleImage
+    <ParticleImage id="Home"
       src={Logo}
       width={Number(innerWidth)}
       height={Number(innerHeight)}

@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import NavBar from './components/NavBar'
 import Profile from './components/Profile'
 import Projects from './components/Projects'
+import TimeLineComponent from './components/Timeline'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <NavBar/>
       <Profile/>
       <Projects/>
+      <TimeLineComponent/>
       <Footer/>
     </div>
   )}

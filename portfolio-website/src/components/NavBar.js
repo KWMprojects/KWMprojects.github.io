@@ -6,13 +6,13 @@ const NavBar = () => {
   return (
     <div>
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="#Home">
           Kevin W. Maguire
         </Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#About">About</Nav.Link>
           <Nav.Link href="#Projects">Projects</Nav.Link>
+          <Nav.Link href="#Timeline">Timeline</Nav.Link>
         </Nav>
       </Navbar>
     </div>
