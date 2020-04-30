@@ -1,19 +1,20 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import NavBar from './components/NavBar'
-import Pdf from "./resume/Resume_Kevin_Maguire.pdf"
-import Particles from 'react-particles-js'
 import HeaderAnimation from './components/headerAnimation'
 import './App.css'
-
+import Profile from './components/Profile'
+import Intro from './components/Intro'
 
 function App() {
   return (
     <div className="App">
-      <NavBar/>
+      <Intro/>
       <HeaderAnimation/>
+      <NavBar/>
+      <Profile/>      
     </div>
-  );
+  )
 }
 
 export default App;

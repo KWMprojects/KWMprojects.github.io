@@ -18,14 +18,14 @@ const HeaderAnimation = () => {
           },
 	        "line_linked": {
 	            "enable": true,
-	            "opacity": 0.02
+	            "opacity": 0.1
 	        },
 	        "move": {
 	            "direction": "right",
-	            "speed": 0.05
+	            "speed": 0.01
 	        },
 	        "size": {
-	            "value": 1
+	            "value": 4
 	        },
 	        "opacity": {
 	            "anim": {
@@ -34,7 +34,12 @@ const HeaderAnimation = () => {
 	                "opacity_min": 0.05
 	            }
 	        }
-	    },
+			},
+			"background":{
+				"color":{
+					"value":"#292b2c"
+				}
+			},
 	    "interactivity": {
 	        "events": {
 	            "onhover": {
