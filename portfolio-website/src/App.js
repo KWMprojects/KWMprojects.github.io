@@ -5,6 +5,7 @@ import HeaderAnimation from './components/headerAnimation'
 import './App.css'
 import Profile from './components/Profile'
 import Intro from './components/Intro'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Intro/>
       <HeaderAnimation/>
       <NavBar/>
-      <Profile/>      
+      <Profile/>
+      <Footer/>
     </div>
   )
 }
