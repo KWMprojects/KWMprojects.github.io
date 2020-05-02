@@ -8,8 +8,8 @@ import ParticleImage, {
 } from "react-particle-image"
 import useWindowSize from "@rooks/use-window-size"
 
-import Logo from '../Images/transparent-logo.png'
-
+import BackgroundContainer from './BackgroundContainer'
+import Logo from '../Images/name.png'
 
 const particleOptions: ParticleOptions = {
   filter: ({ x, y, image }) => {
@@ -18,7 +18,7 @@ const particleOptions: ParticleOptions = {
     // Make a particle for this pixel if blue > 50 (range 0-255)
     return pixel.b > 50
   },
-  color: ({ x, y, image }) => "#cf672a",
+  color: ({ x, y, image }) => "#ffffff",
   radius: () => Math.random() * 1.5 + 0.5,
   mass: () => 40,
   friction: () => 0.15,
@@ -34,19 +34,22 @@ const Intro = () =>{
   const { innerWidth, innerHeight } = useWindowSize()
 
   return (
+    <div>
     <ParticleImage id="Home"
       src={Logo}
       width={Number(innerWidth)}
       height={Number(innerHeight)}
       scale={1}
-      entropy={25}
-      maxParticles={5000}
+      entropy={15}
+      maxParticles={3000}
       creationDuration={20}
       particleOptions={particleOptions}
       mouseMoveForce={motionForce}
       touchMoveForce={motionForce}
-      backgroundColor="#FFFFFF"
+      backgroundColor={BackgroundContainer}
     />
+    <BackgroundContainer/>
+    </div>
   )
 }
 

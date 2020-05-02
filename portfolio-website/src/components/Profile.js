@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {Container, Row, Col, Image} from 'react-bootstrap'
-import Fade from 'react-reveal/Fade'
+import {Fade} from 'react-reveal'
 
 import BootstrapLogo from "../logos/bootstrap.png"
 import DjangoLogo from "../logos/django.png"
@@ -26,7 +26,7 @@ const Profile = () => {
           <h3 className="text-center">Kevin W.Maguire</h3>
             <p className="text-center">I'm a full-stack software developer in the Greater Boston Area who recently graduated from Code Platoon. 
             My projects have focused on web development and web applications. 
-            I am looking for opportunities and open to new specialties in CS.  
+            I am looking for new opportunities and excited about our future work together.  
             <a href={Pdf} target="_blank" rel="noopener noreferrer"> Let's get started!</a></p>
         </Fade>
         </Col>

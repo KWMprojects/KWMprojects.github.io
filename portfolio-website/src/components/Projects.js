@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {Col, Container, Image, Row} from 'react-bootstrap'
-import Fade from 'react-reveal/Fade'
+import {Fade} from 'react-reveal'
 
 import Laptop from '../logos/laptop.png'
 
@@ -14,14 +14,14 @@ const Projects = () => {
     <Container id="Projects" fluid>
       <Row className="justify-content-md-center">
         <Col sm={12} md={4}>
-          <Fade>
+          <Fade left>
             <h2 className="text-center">Projects</h2>
           </Fade>
         </Col>
       </Row>
       <Row className="justify-content-md-center">
         <Col sm={12} md={4}>
-          <Fade>
+          <Fade right>
             <Image src={Laptop} onClick={handleClick}fluid/>
             <h5 className="text-center">Rummi-Klub</h5>
           </Fade>

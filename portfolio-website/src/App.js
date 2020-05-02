@@ -13,8 +13,8 @@ import TimeLineComponent from './components/Timeline'
 function App() {
   return (
     <div className="App">
-      <Intro/>
       <NavBar/>
+      <Intro/>
       <Profile/>
       <Projects/>
       <TimeLineComponent/>
