@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.27fd15f6.chunk.css",
+    "main.js": "/static/js/main.df18e29d.chunk.js",
+    "main.js.map": "/static/js/main.df18e29d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.223301a1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.223301a1.js.map",
+    "static/css/2.cb4aceb2.chunk.css": "/static/css/2.cb4aceb2.chunk.css",
+    "static/js/2.5c3b728d.chunk.js": "/static/js/2.5c3b728d.chunk.js",
+    "static/js/2.5c3b728d.chunk.js.map": "/static/js/2.5c3b728d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.48e7d5c8c6627f6269218b2b19d649e9.js": "/precache-manifest.48e7d5c8c6627f6269218b2b19d649e9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.cb4aceb2.chunk.css.map": "/static/css/2.cb4aceb2.chunk.css.map",
+    "static/css/main.27fd15f6.chunk.css.map": "/static/css/main.27fd15f6.chunk.css.map",
+    "static/js/2.5c3b728d.chunk.js.LICENSE.txt": "/static/js/2.5c3b728d.chunk.js.LICENSE.txt",
+    "static/media/IMG_20190731_095920.jpg": "/static/media/IMG_20190731_095920.fedbe4d6.jpg",
+    "static/media/Resume_Kevin_Maguire.pdf": "/static/media/Resume_Kevin_Maguire.5b79f1f2.pdf",
+    "static/media/bootstrap.png": "/static/media/bootstrap.584d9f32.png",
+    "static/media/django.png": "/static/media/django.629515c8.png",
+    "static/media/github.png": "/static/media/github.1607a3a7.png",
+    "static/media/github.svg": "/static/media/github.617870e4.svg",
+    "static/media/laptop.png": "/static/media/laptop.47533afc.png",
+    "static/media/linkedin.svg": "/static/media/linkedin.619231ff.svg",
+    "static/media/node.png": "/static/media/node.08ebf3d0.png",
+    "static/media/postgresql.png": "/static/media/postgresql.30da709b.png",
+    "static/media/python.png": "/static/media/python.7ed7279e.png",
+    "static/media/react.png": "/static/media/react.638be909.png",
+    "static/media/triple-logo.png": "/static/media/triple-logo.9228f542.png",
+    "static/media/vscode.png": "/static/media/vscode.1dfcdd05.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.223301a1.js",
+    "static/css/2.cb4aceb2.chunk.css",
+    "static/js/2.5c3b728d.chunk.js",
+    "static/css/main.27fd15f6.chunk.css",
+    "static/js/main.df18e29d.chunk.js"
+  ]
+}
