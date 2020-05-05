@@ -20,54 +20,74 @@ const Profile = () => {
   return(
     <Container id="About" fluid>
       <Row>
-        <Col sm={12} md={6}>
+        <Col xs={0} md={12}>&nbsp;</Col>
+      </Row>
+      <Row>
+        <Col xs={0} md={12}>&nbsp;</Col>
+      </Row>
+      <Row>
+        <Col xs={2} md={2}></Col>
+        <Col sm={6} md={3}>
         <Fade left>
           <Image src={Pic} fluid/>
-          <h3 className="text-center">Kevin W.Maguire</h3>
+          <h2 className="text-center">Kevin W.Maguire</h2>
             <p className="text-center">I'm a full-stack software developer in the Greater Boston Area who recently graduated from Code Platoon. 
             My projects have focused on web development and web applications. 
             I am looking for new opportunities and excited about our future work together.  
             <a href={Pdf} target="_blank" rel="noopener noreferrer"> Let's get started!</a></p>
         </Fade>
         </Col>
-        <Col sm= {12} md={6}>
+        <Col sm={3} md={2}></Col>
+        <Col sm= {6} md={3}>
         <Fade right>
           <h2 className="text-center">Technologies</h2>
+          <Row>
+        <Col sm={12}>&nbsp;</Col>
+      </Row>
       <Row>
         <Col sm={6} md={12}>
           <Image src={TripleLogo} fluid />
         </Col>
       </Row>
       <Row>
-        <Col sm={6} md={4}>
+        <Col xs={12}>&nbsp;</Col>
+      </Row>
+      <Row>
+        <Col xs={4} md={4}>
           <Image src={BootstrapLogo} fluid />
         </Col>
-        <Col sm={6} md={4}>
+        <Col xs={4} md={4}>
           <Image src={ReactLogo} fluid />
         </Col>
-        <Col sm={6} md={4}>
+        <Col xs={4} md={4}>
           <Image src={NodeLogo} fluid />
         </Col>
       </Row>
       <Row>
-        <Col sm={6} md={4}>
+        <Col xs={12}>&nbsp;</Col>
+      </Row>
+      <Row>
+        <Col xs={4} md={4}>
           <Image src={PostgreSQLLogo} fluid />
         </Col>
-        <Col sm={6} md={4}>
+        <Col xs={4} md={4}>
           <Image src={PythonLogo} fluid />
         </Col>
-        <Col sm={6} md={4}>
+        <Col xs={4} md={4}>
           <Image src={DjangoLogo} fluid />
         </Col>
       </Row>
       <Row>
-        <Col sm={6} md={4}>
+        <Col xs={12}>&nbsp;</Col>
+      </Row>
+      <Row>
+        <Col xs={4} md={4}>
           <Image src={GitLogo} fluid />
         </Col>
-        <Col sm={6} md={4}>
+        <Col xs={4} md={4}>
           <Image src={GitHubLogo} fluid />
         </Col>
-        <Col sm={6} md={4}>
+        <Col xs={4} md={4}>
           <Image src={VSCodeLogo} fluid />
         </Col>
       </Row>

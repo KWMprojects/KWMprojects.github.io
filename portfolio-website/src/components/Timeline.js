@@ -1,13 +1,20 @@
 import React from 'react'
 
+import {Col, Row} from 'react-bootstrap'
 import {Fade} from 'react-reveal'
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react'
 
 const TimeLineComponent = () => {
   return(
     <div>
+       <Row>
+        <Col sm={12}>&nbsp;</Col>
+      </Row>
+      <Row>
+        <Col sm={12}>&nbsp;</Col>
+      </Row>
     <Fade left>
-    <h2 className="text-center">Timeline</h2>
+    <h2 className="text-center" id="Timeline">Timeline</h2>
     </Fade>
     <Timeline lineColor={'#000'}>
     <TimelineItem

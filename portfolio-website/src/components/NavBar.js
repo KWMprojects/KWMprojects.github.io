@@ -5,15 +5,14 @@ import {Nav, Navbar} from 'react-bootstrap'
 const NavBar = () => {
   return (
     <div>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="light" variant="light" fixed="top">
         <Navbar.Brand href="#Home">
           Kevin Maguire
         </Navbar.Brand>
-        <Nav className="mr-auto">
+        <Nav className="mr-auto justify-content-end">
           <Nav.Link href="#About">About</Nav.Link>
           <Nav.Link href="#Projects">Projects</Nav.Link>
           <Nav.Link href="#Timeline">Timeline</Nav.Link>
-          <Nav.Link href="#Timeline">Contact</Nav.Link>
         </Nav>
       </Navbar>
     </div>

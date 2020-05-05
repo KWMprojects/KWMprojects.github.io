@@ -12,6 +12,13 @@ const Projects = () => {
   }
   return(
     <Container id="Projects" fluid>
+      <Row>
+        <Col sm={12}>&nbsp;</Col>
+      </Row><Row>
+        <Col sm={12}>&nbsp;</Col>
+      </Row><Row>
+        <Col sm={12}>&nbsp;</Col>
+      </Row>
       <Row className="justify-content-md-center">
         <Col sm={12} md={4}>
           <Fade left>
@@ -19,8 +26,11 @@ const Projects = () => {
           </Fade>
         </Col>
       </Row>
+      <Row>
+        <Col sm={12}>&nbsp;</Col>
+      </Row>
       <Row className="justify-content-md-center">
-        <Col sm={12} md={4}>
+        <Col sm={6} md={3}>
           <Fade right>
             <Image src={Laptop} onClick={handleClick}fluid/>
             <h5 className="text-center">Rummi-Klub</h5>

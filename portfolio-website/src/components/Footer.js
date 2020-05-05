@@ -9,9 +9,9 @@ import LinkedinLogo from '../logos/linkedin.svg'
 const Footer = () =>{
   return(
     <Container fluid>
-      <Row className="justify-content-md-center">
+      <Row className="justify-content-sm-center">
         <Navbar bg="light" variant="dark">
-        <Col sm={4}>
+        <Col xs={4}>
           <Navbar.Brand href="https://github.com/KWMprojects" target="_blank" rel="noopener noreferrer">
             <img
               alt=""
@@ -22,7 +22,7 @@ const Footer = () =>{
             />
           </Navbar.Brand>
         </Col>
-        <Col sm={4}>
+        <Col xs={4}>
           <Navbar.Brand href="https://www.linkedin.com/in/kevin-maguire-ii/" target="_blank" rel="noopener noreferrer">
             <img
               alt=""
@@ -33,7 +33,7 @@ const Footer = () =>{
             />
           </Navbar.Brand>
         </Col>
-        <Col sm={4}>
+        <Col xs={4}>
           <Navbar.Brand href="mailto:k.w.maguire.ii@gmail.com" target="_blank" rel="noopener noreferrer">
             <img
               alt=""
